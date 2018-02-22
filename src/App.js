@@ -1,15 +1,13 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+//import Navbar from './components/navbar';
+import ListallPage from './pages/ListallPage';
 import './App.css';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">News Inc.</h1>
-        </header> 
+        <ListallPage />
       </div>
     );
   }
